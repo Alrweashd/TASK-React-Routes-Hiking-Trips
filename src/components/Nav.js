@@ -8,9 +8,9 @@ function Nav() {
       id="mainNav"
     >
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <NavLink className="navbar-brand" to="/">
           Hike
-        </a>
+        </NavLink>
 
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ms-auto">
@@ -22,7 +22,7 @@ function Nav() {
             <li className="nav-item mx-0 mx-lg-1">
               <NavLink
                 className={"nav-link py-3 px-0 px-lg-3 rounded underline"}
-                to="/tripslist"
+                to="/list"
               >
                 Trips
               </NavLink>
